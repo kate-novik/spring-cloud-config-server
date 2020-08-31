@@ -31,10 +31,10 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-		<!--		Add dependency to RabbitMQ for Spring Cloud Bus-->
+		<!--		Add dependency to RabbitMQ for Spring Cloud Bus (don't work for dependency spring-rabbit)-->
 		<dependency>
-			<groupId>org.springframework.amqp</groupId>
-			<artifactId>spring-rabbit</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
